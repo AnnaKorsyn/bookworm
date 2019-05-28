@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+
+	<title>Book Worm</title>
+	<link rel="shortcut icon" href="images/books.png" type="image/png">
+	<meta content="" name="description" />
+	<meta content="" property="og:image" />
+	<meta content="" property="og:description" />
+	<meta content="" property="og:site_name" />
+	<meta content="website" property="og:type" />
+
+	<meta content="telephone=no" name="format-detection" />
+	<meta http-equiv="x-rim-auto-match" content="none">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="fontello.css">
+	<link rel="stylesheet" href="fonts.css" >	
+	<link rel="stylesheet" href="media.css" >
+	<link rel="stylesheet" href="slick.css">
+	<link rel="stylesheet" href="slick-theme.css">
+	<link rel="stylesheet" href="main.css" >
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script src="fadeIn-fadeOut.js"></script>
+
+</head>
+
+<body onload="time()">
+
+    <div id="wrap">
+	<header class="header">
+	
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">							
+				<a class="navbar-brand" href="#">				
+					<i class="fa fa-square line"></i> <strong>Book Worm</strong>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav center">
+					<li class="nav-item">
+							<a class="nav-link after-stop" href="#zak"> <h4> Моя библиотека </h4> </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link after-stop" href="#book"><h4> Книги </h4></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link after-stop" href="#act"><h4> Лучшие </h4></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link after-stop" href="#zut"><h4>Цитаты</h4></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link after-stop" href="#new"><h4>Новинки</h4></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link after-stop" href="#otz"><h4>Рецензии </h4></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link after-stop" href="#top"><h4>Топ 3</h4></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="head-screen">
+			<div class="container abspos">
+				<div class="icon-free">
+					<a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+					<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-lg-8">
+						<div class="head-text">
+							<h1> Книжный портал с персональными рекомендациями и личными коллекциями </h1>
+							<br>
+							<br>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-11 ml-auto">
+						<div class="label">
+							<h5> Новинки </h5>
+						</div>
+					</div>
+				</div>
+	
+				<div class="row">
+					<div class="col-md-11  ml-auto" >
+						<div class="label">
+							<h5> Рецензии </h5>
+						</div>  
+					</div>
+				</div>				
+			</div>			
+		</div>
+	</header>
+    <br>
+    <br>
+	<main>
+		<div class="container">
+		<div class="row">
+		<div class="col-md-3">
+			<div class="line-vertical">	
+			</div>
+		</div> 
+		<div class="col-md-3">
+			<div class="line-vertical">
+				
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="line-vertical">	
+			</div>
+		</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		<div class="bgposition">
+			<div class="bgtool"></div>
+			<section class="feedback" >
+		<div class="container" >
+			<div class="row">
+				<div class="col-md-2 mr-auto ml-auto"  id="book">
+					<h3 class="top-line" > Книги </h3>
+				</div>
+			</div>
+			<br>
+			<br>
+			<h6>Книга- это иной мир, несущий горсть эмоциональных состояний, информации, знаний. Для каждой книги есть свой читатель. Одни люди любят с головой утопать в любовных романах и с переживанием проживать жизнь героев, другие находят для себя в книгах поток истории, «То, что прошло, вернуть нельзя, но благодаря книге можно оказаться в том времени».</h6>
+			<div class="one-time">
+
+				<div class="slide">
+					<div class="feedback-content">
+						<div class="fb-author1">
+							<div class="author-img">
+								<img src="images/b1.jpeg" width="150" height="220">
+							</div>
+							
+						</div>
+
+						<div class="content">
+						<h4>"Мастер и Маргарита" М. Булгаков</h4>
+							<p>«Мастер и Маргарита» – культовый роман, ярчайший шедевр русской литературы, так до конца и не понятый, загадочный и манящий. Нечистая сила во главе с самим Дьяволом Воландом однажды весенним днем появляется в Москве, чтобы навести порядок. Именно так начинается полная приключений и иронии история, в которой в конце концов побеждают любовь и верность. Обязательная к прочтению книга, необходимая в домашней библиотеке. </p>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="slide">
+					<div class="feedback-content">
+						<div class="fb-author1">
+							<div class="author-img">
+								<img src="images/b2.jpeg" width="150" height="220">
+							</div>
+						</div>
+
+						<div class="content">
+						<h4> "Собачье сердче" М.А. Булгаков</h4>
+							<p>Профессор Преображенский и доктор Борменталь, совсем как Шерлок Холмс и Ватсон, пускаются в настоящее приключение. Подобно Фаусту Гёте, они создают своего "гомункулуса", не представляя, чем обернется научный и человеческий эксперимент... По мотивам этого непревзойденного сочинения Булгакова в 1988 году Владимир Бортко снял одноименный фильм, где блестяще сыграл одну из своих последних ролей Евгений Евстигнеев.  </p>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="slide">
+					<div class="feedback-content">
+						<div class="fb-author1">
+							<div class="author-img">
+								<img src="images/b3.jpeg" width="150" height="220">
+							</div>
+						</div>
+
+						<div class="content">
+						<h4>"451° по Фаренгейту" Рэй Брэдбери</h4>
+							<p>"451° по Фаренгейту" - роман, принесший писателю мировую известность. Философская антиутопия Рэя Брэдбери рисует беспросветную картину развития постиндустриального общества; это мир будущего, в котором все письменные издания безжалостно уничтожаются специальным отрядом пожарных, а хранение книг преследуется по закону, интерактивное телевидение успешно служит всеобщему оболваниванию, карательная психиатрия решительно разбирается с редкими инакомыслящими, а на охоту за неисправимыми диссидентами выходит электрический пес... </p>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="slide">
+					<div class="feedback-content">
+						<div class="fb-author1">
+							<div class="author-img">
+								<img src="images/b4.jpeg" width="150" height="220">
+							</div>
+						</div>
+
+						<div class="content">
+						<h4>«Самый Странный Бар Во Вселенной» Флетчер Прэтт </h4>
+							<p>3.70 6 рецензий 5 цитат 6 в избранном в избранном 59 прочитали, 1097 планируют 31 раз прочитана в Книжном вызове 2019 ISBN:	978-5-04-100761-4 Год издания:	2019 Издательство:	Эксмо Серия:	Звезды интеллектуальной фантастики Язык:	Русский Добро пожаловать в настоящий ирландский паб — Бар Гавагана, Самое Странное Заведение В Обозримой Вселенной! Роман в новеллах от Лайона Спрэга де Кампа — одного из основателей жанра альтернативно-исторической фантастики и величайшего мастера юмористической фэнтези!  </p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+	</section>
+
+			<section class="tool-selection">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 col-lg-4 ml-auto mr-auto">
+							<h3 class="top-line" id="act"> Лучшие прочитанные книги</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-lg-4">
+							<div class="tool-block">
+								<div class="preview">
+									<div class="tool-image">
+										<img src="images/1.jpeg"  width="150" height="220" alt="1.jpeg">
+									</div>
+									<div class="tool-label"><p>"Бегущий по Лабиринту" Дж. Дэшнер</p></div>
+								</div>
+
+								<div class="hov-info animated fadeIn">
+									<div class="tool-label"><p>"Главный герой — подросток Томас, который просыпается в лифте, но ничего не помнит, кроме своего имени. Он оказывается среди других подростков, научившихся выживать в замкнутом пространстве. Раз в 30 дней прибывает новый мальчик. Группа ребят проживает в «Приюте» уже три года.  Но однажды появляется девочка в состоянии комы... </p></div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="tool-block">
+								<div class="preview">
+									<div class="tool-image">
+										<img src="images/3.jpeg"  width="150" height="220">
+									</div>
+									<div class="tool-label"><p>"Эллигент" Вероника Рот</p></div>
+								</div>
+
+								<div class="hov-info animated fadeIn">
+									<div class="tool-label"><p>"Власть захватывает мать Тобиаса, Эвелин. Внезапно наружу вырывается правда. Выясняется, что город – вовсе не идеально структурированное общество, а «реалити-шоу». Можно ли принять тот факт, что вся твоя жизнь была иллюзией? Да и ты сам был просто результатом эксперимента? </p></div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="tool-block">
+								<div class="preview">
+									<div class="tool-image">
+										<img src="images/v.jpeg"   width="150" height="220">
+									</div>
+									<div class="tool-label"><p>"5-я волна" Рик Янси</p></div>
+								</div>
+
+								<div class="hov-info animated fadeIn">
+									<div class="tool-label"><p>Первая волна оставила за собой мглу. От второй успели убежать только самые везучие. Но едва ли можно назвать везучими тех, кто уцелел после третьей. А четвертая волна стерла все человеческие законы, взамен же установила свой, один-единственный: хочешь жить — не верь никому.</p></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="tool-block">
+								<div class="preview">
+									<div class="tool-image">
+										<img src="images/2.jpeg"  width="150" height="220">
+									</div>
+									<div class="tool-label"><p>"Реквием" Лорен Оливер</p></div>
+								</div>
+
+								<div class="hov-info animated fadeIn">
+									<div class="tool-label"><p>После спасения Джулиана от смертной казни, Лина и ее друзья сбежали в Дикие земли, надеясь найти там приют и безопасность. Меньше всего Лина ожидает встретиться здесь с Алексом, который не только не умер, но и сумел выбраться из Крипты.  Официальное правительство признало сам факт наличия заразных и объявило им войну. </p></div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="tool-block">
+								<div class="preview">
+									<div class="tool-image">
+										<img src="images/z.jpeg" width="150" height="220">
+									</div>
+									<div class="tool-label"><p>"Зильбер" Керстин Гир</p></div>
+								</div>
+
+								<div class="hov-info animated fadeIn">
+									<div class="tool-label"><p>Почему эти сны начали видеться именно мне? Существует ли демон ночи на самом деле, или он - просто выдумка? Как связаны события, случающиеся со мной в реальной жизни, с тем, что происходит во сне? Я очень хочу разгадать все эти загадки... Меня зовут Лив Зильбер. </p></div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="tool-block">
+								<div class="preview">
+									<div class="tool-image">
+										<img src="images/4.jpeg" width="150" height="220">
+									</div>
+									<div class="tool-label"><p>"Орудия смерти" Кассандра Клэр</p></div>
+								</div>
+
+								<div class="hov-info animated fadeIn">
+									<div class="tool-label"><p>Серия книг, написанных Кассандрой Клэр в стиле фантастики и городского фэнтези. На данный момент опубликовано шесть книг'. «Орудия смерти» - это третья серия книг Хроники сумеречных охотников, из пяти существующих, но она была первая опубликована.</p></div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div id="another-products" class="another-products animated fadeIn" style="display: none">
+						<div class="row">
+							<div class="col-md-6 col-lg-4">
+								<div class="tool-block">
+									<div class="preview">
+										<div class="tool-image">
+											<img src="images/d.jpeg" width="150" height="220">
+										</div>
+										<div class="tool-label"><p>"Дочь дыма и костей" Лэйни Тейлор</p></div>
+									</div>
+
+									<div class="hov-info animated fadeIn">
+										<div class="tool-label"><p> По запутанным переулкам Праги Кэроу — студентка-художница, спешит на занятия. Она рисует в альбоме чудовищ — и все думают, что они лишь плод ее воображения. Кто же она? И какая роль ей предстоит в грядущей войне между Светом и Тьмой</p></div>
+									</div>
+								</div>
+							</div>
+ 
+					</div>
+				</div>
+				<div class="row">						
+					<div class="col-md-12 text-center">
+						<button onclick="fade()" class="showMore">Показать больше</button>
+					</div>
+				</div>
+				<a href="#wrap" class="up" title="Поехали!" alt="Поехали!">  <img width="90" height="90" src="images/12.png"> </a> 
+			</div>
+		</section>
+	</div>
+
+	<section class="forma bg1">
+		<h2 id="zak"> g </h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1><span> Book worm  - </span> личная библиотека Корсун Анны</h1>
+
+				</div>
+				<div class="col-md-5 offset-md-1">
+					<div class="forma-box forma1">
+						<div class="forma-headline">
+							<h3>Личная информация </h3>
+							<p> «Моя библиотека» – отличное место для поиска и чтения увлекательных книг, коллекционирования любимых произведений и обсуждения прочитанного. Книжный портал содержит мою подборку книг из лучших и новинок; рецензии; любимые цитаты. А так же можно посмотреть на составленный рейтинг из прочитаного!!! </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="profit">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-lg-7 ml-auto mr-auto">
+					<h3 class="top-line" id="zut">Цитаты из книг</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="profit-box">
+					<img src="images/z1.jpeg" width="150" height="220">
+						<p> «Знаешь, почему он сумел это сделать? Потому что никто не говорил ему, что он этого не сможет. Никто никогда не говорил ему, что он должен отправляться умирать куда-нибудь в дом престарелых. Ты оправдываешь собственные ожидания, парень.»  </p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="profit-box">
+						<img src="images/z2.jpeg" width="150" height="220">
+						<p>«Любой убийца может быть чьим-то старым другом, – философски произнес Пуаро. – Нельзя смешивать чувства и мотивы.» </p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="profit-box">
+							<div class="tool-image">
+								<img src="images/z3.jpeg" width="150" height="220">
+						</div>
+						<p> «Человеку всегда хочется иметь больше, чем он имеет в действительности, причем он желает получить это незамедлительно, ибо считает, что в своей жизни он уже ждал достаточно долго и теперь наконец пришла его очередь.»</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="profit-box">
+						<img src="images/4.jpeg" width="150" height="220">
+						<p>«У каждого (и, наверно, по-разному) наступает минута, когда он вдруг почувствует себя взрослым. Неважно, что после этого в нем остается еще много детского. Ощущение взрослости, раз осознанное, будет постепенно крепнуть.» </p>
+					</div>
+				</div>					
+				<div class="col-md-3">
+					<div class="profit-box">
+						<img src="images/5.jpeg" width="150" height="220">
+						<p>Как справедлива поговорка «Человек изобрел работу, чтобы избавиться от необходимости думать». </p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="profit-box">
+						<img src="images/6.jpeg" width="150" height="220">
+						<p> «Одни только дети знают, что ищут. Они отдают все свои дни тряпочкой кукле, и она становится им очень-очень дорога, и, если её у них отнимут, дети плачут... »</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="profit-box">
+						<img src="images/7.jpeg" width="150" height="220">
+						<p> «Как быстро идёт время, как ошарашивающе быстро оно уходит...И самое печальное в том, что ход его с каждым годом ускоряется. Если раньше ты не замечал, как исчезает день, неделя то теперь точно также не успеваешь считать проносящиеся сквозь тебя годы...»</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="profit-box">
+						<img src="images/6.jpeg" width="150" height="220">
+						<p>«—Странное ты существо. Не толще пальца. —Но могущества у меня больше, чем в пальце короля.»</p>
+					</div>
+				</div>
+			</div>
+			<a href="#wrap" class="up" title="Поехали!" alt="Поехали!">  <img width="90" height="90" src="images/12.png"> </a> 
+		</div>
+	</section>
+
+	<section class="spares-selection">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 ml-auto mr-auto">
+					<h3 class="top-line" id="new"> Новинки книг</h3>
+				</div>
+
+                 <h6> Эти книги вышли из печати или только готовятся к выходу – так или иначе они стремительно набирают популярность. Представляем лучшие книжные новинки! Обратите внимание, книги впервые публикуются на русском языке. </h6> <br>
+			</div>
+			<div class="spares-block">
+				<div class="row">
+					<div class="col-md-6 col-lg-3">
+						<div class="spares">
+							<div class="spares-icon">
+								<img src="images/n1.jpeg" width="150" height="220">
+							</div>
+							<p> Современное общество пропагандирует культ успеха: будь умнее, богаче, продуктивнее — будь лучше всех. Однако наша зацикленность на позитиве и успехе лишь напоминает о том, чего мы не достигли, о мечтах, которые не сбылись. Как же стать по-настоящему счастливым? </p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="spares">
+							<div class="spares-icon">
+								<img src="images/n2.jpeg" width="150" height="220">
+							</div>
+							<p>«Одна история» — это «проницательный, ювелирными касаниями исполненный анализ того, что происходит в голове и в душе у влюбленного человека» (The Times); это «более глубокое и эффективное исследование темы, уже затронутой Барнсом в „Предчувствии конца“ — романе, за который он наконец получил Букеровскую премию» (The Observer). </p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="spares">
+							<div class="spares-icon">
+								<img src="images/n3.jpeg" width="150" height="220">
+							</div>
+							<p>Итак, на бал-маскараде в Блэкхит-хаусе, имении семейства Хардкасл, произойдет убийство: на пике праздника, под аккомпанемент величественного салюта, погибнет красавица Эвелина, единственная дочь и наследница Хардкаслов. Но умрет она не единожды: пока Айден Слоун, один из приглашенных на праздник гостей, не разрешит загадку ее убийства, этот день будет повторяться снова и снова, неизменно завершаясь роковым пистолетным выстрелом. Но каждый раз, после каждой неудачной попытки, Айден приходит в себя в чужом теле — и каждый раз в разном… </p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="spares">
+							<div class="spares-icon">
+								<img src="images/n4.jpeg" width="150" height="220">
+							</div>
+							<p>Один человек. Четыре параллельные жизни. Арчи Фергусон будет рожден однажды. Из единого начала выйдут четыре реальные по своему вымыслу жизни – параллельные и независимые друг от друга. Четыре Фергусона, сделанные из одной ДНК, проживут совершенно по-разному. Семейные судьбы будут варьироваться. Дружбы, влюбленности, интеллектуальные и физические способности будут контрастировать. При каждом повороте судьбы читатель испытает радость или боль вместе с героем. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#wrap" class="up" title="Поехали!" alt="Поехали!">  <img width="90" height="90" src="images/12.png"> </a> 
+		</div>
+	</section>
+
+	<section class="feedback">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 mr-auto ml-auto">
+					<h3 class="top-line" id="otz">Рецензии</h3>
+				</div>
+			</div>
+			<div class="one-time">
+
+				<div class="slide">
+					<div class="feedback-content">
+						<div class="fb-author">
+							<div class="author-img">
+								<img src="images/n3.jpeg" width="150" height="220">
+							</div>
+							
+						</div>
+
+						<div class="content">
+						<h4>Оценка 5- баллов:</h4>
+							<p>В «Предчувствии конца» Джулиана Барнса есть эпизод, когда юный главный герой пишет письмо бывшей девушке. По его воспоминаниям это изящное и тактичное послание, полное достоинства и уничтожающей иронии. Когда он видит это письмо, будучи взрослым, то поражается: на самом деле он написал истерический, глуповатый и полный желчи подростковый вопль. «Одна история» является развернутой иллюстрацией этого фрагмента, в котором беспристрастные факты никак не соотносятся с тем, что может помнить о себе и окружающем мире человек, потому что время и субъективное восприятие истирают реальность до состояния трухлявой ветоши, поверх которой можно нарисовать что угодно. </p>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="slide">
+					<div class="feedback-content">
+						<div class="fb-author">
+							<div class="author-img">
+								<img src="images/t3.jpeg" width="150" height="220">
+							</div>
+						</div>
+
+						<div class="content">
+						<h4>Оценка 4 балла: </h4>
+							<p>Нуууу... Честно, я сначала прочитала «Остров» М. А. Беннетт и книга мне очень понравилась. Как видно, не зря - Охота явно слабее. Но в плане поворотов сюжета и финала - понравилась больше, это точно. И так, аннотацию я читала мельком, и все что знала о книге - девочка попадает на тусовку местной школьной элиты. Ничем хорошим это не закончилось. В принципе так оно и вышло. Правда, я не ожидала что книга начинается признанием. С первых строк (от первого лица) главная героиня Григ рассказывает что "они все виноваты в его смерти". Чуть позже даже назовет убитого. Казалось бы - так в чем интрига? Конечно, в способе убийства, ну и... Лично мне было интересно наблюдать за этой звездной шестеркой, Средневековцами. Их философией, принципами и видением мира. </p>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="slide">
+					<div class="feedback-content">
+						<div class="fb-author">
+							<div class="author-img">
+								<img src="images/t2.jpeg" width="150" height="220">
+							</div>
+						</div>
+
+						<div class="content">
+						<h4>Оценка 5 баллов</h4>
+							<p>Все-таки как не ворочай, не крути, на восприятие этой книги огромный отпечаток накладывает имеющийся опыт знакомства с творчеством автора (всем переведенным творчеством на сегодня). Как и ожидала, увидела много сердечности, добра, борьбы за справедливость. Бакман такой же чистосердечный, открытый, продолжает качественно учить родителей пониманию и общению с детьми, в Медвежьем угле подростками. Этот момент попал для меня лично в самую точку, ибо на горизонте уже свои подростки, а это жуть какое волнительное и непредсказуемое событие. Из этого вытекает, что в книге много, очень много подростков. Так много, что смело рядом с жанром Современная проза могу приписать Янг Эдалт. Для кого-то это станет плюсом, но жанр совершенно не мой, поэтому порой во время чтения это ощущалось. </p>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="slide">
+					<div class="feedback-content">
+						<div class="fb-author">
+							<div class="author-img">
+								<img src="images/t1.jpeg" width="150" height="220">
+							</div>
+						</div>
+
+						<div class="content">
+						<h4>Оценка 5+ баллов:</h4>
+							<p>Вы тоже услышали те самые нотки вступительной заставки? Тогда мы с вами на одной волне. Я давно была знакома с сериалом, мне он нравился, его мир, вселенная. Но я то и дело откладывал ознакомление с литературой. И наконец этот день настал. Язык Мартина очень легок и приятен, его манера повествования чем то напоминает сказочную. Сказку с инцестом, кровавой войной и женщинами легкой доступности. Однако, следить за историями дома Старков было занимательно, даже несмотря на то, что я и знаю конец. Ты видишь каждый шаг, ты видишь сомнения, которые одолевали персонажа, его страхи, его тревоги. Ты ощущаешь себя частью происходящего, частью этой картины. Игра престолов, это роман, который держит тебя от начала и до конца. Это увлекательные жизни с запутанным и переплетенным сюжетом. Сложно переоценить вклад Мартина в литературный фонд. Его имя уже давно занимает высоты. </p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<a href="#wrap" class="up" title="Поехали!" alt="Поехали!">  <img width="90" height="90" src="images/12.png"> </a> 
+		</div>
+	</section>
+
+	<section class="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-6 ml-auto mr-auto">
+					<h3 class="top-line" id="top"> ТОП 3 книги </h3>
+				</div>					
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-lg-4">
+					<div class="service-block">
+						<div class="service-icon">
+							<img src="images/t1.jpeg" width="150" height="220">
+						</div>
+						<div class="service-content">
+							<h5>"Игра Престолов" Джордж Мартин</h5>
+							<p>Лорды и герои, воины и чернокнижники совершают великие деяния и предательства, плетут политические интриги, борются за власть, любят и погибают - все ради того, чтобы исполнилось древнее пророчество о мире Семи Королевств- мире суровых земель вечного холода и цветущих земель вечного лета. Первая часть саги Джорджа Мартина с уникальными иллюстрациями канадского художника Теда Нэсмита. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4">
+					<div class="service-block">
+						<div class="service-icon">
+							<img src="images/t2.jpeg" width="150" height="220">
+						</div>
+						<div class="service-content">
+							<h5>"Медвежий угол" Фредрик Бакман</h5>
+							<p>Лорды и герои, воины и чернокнижники совершают великие деяния и предательства, плетут политические интриги, борются за власть, любят и погибают - все ради того, чтобы исполнилось древнее пророчество о мире Семи Королевств- мире суровых земель вечного холода и цветущих земель вечного лета. Первая часть саги Джорджа Мартина с уникальными иллюстрациями канадского художника Теда Нэсмита.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4">
+					<div class="service-block">
+						<div class="service-icon">
+							<img src="images/t3.jpeg" width="150" height="220">
+						</div>
+						<div class="service-content">
+							<h5>"Охота" М. А. Беннет</h5>
+							<p>Семнадцатилетняя Грир Макдональд приезжает учиться в самую престижную закрытую школу Англии - Школу Святого Айдана, или СВАШ. Здесь почитают древние традиции и осуждают современные развлечения. Стать частью этого общества непросто, и все взгляды обращены к шестерке лидеров - Средневековцам.  </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+		 <a href="#wrap" class="up" title="Поехали!" alt="Поехали!">  <img width="90" height="90" src="images/12.png"> </a> 
+
+</main>
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<a class="navbar-brand" href="#"><i class="fa fa-square"></i> <strong>Book Worm</strong></a>
+      
+				<span>Copyright ©2019,  Книжный портал Book Worm</span>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="function.js"></script>
+<script src="slick.min.js"></script>
+<script>
+	$('.slider-box').slick(
+	{
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 1
+	});
+</script>
+
+<script>
+	$('.one-time').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 10000
+	});
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
